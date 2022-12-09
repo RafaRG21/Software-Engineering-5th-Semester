@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">CostumShop</string>
+    <string name="titulo">Costum Shop</string>
+    <string name="bienvecida">¡Bienvenido!</string>
+    <string name="correo">Ingresar correo</string>
+    <string name="contrasena">Ingresar contraseña</string>
+    <string name="guardarDatos">Guardar Datos</string>
+    <string name="pedido">Pedido</string>
+    <string name="productos">Productos</string>
+    <string name="compras">Mis compras</string>
+    <string name="nosotros">Nosotros</string>
+    <string name="cerrar">Cerrar Sesión</string>
+    <string name="nombre">Ingresar nombre</string>
+    <string name="domicilio">Ingresar domicilio</string>
+    <string name="producto">Producto</string>
+    <string name="talla">Talla</string>
+    <string name="telefono">Ingresar número telefónico</string>
+    <string name="registrar">Registrar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="datos">Información registrada:</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="salir">Salir</string>
+    <string name="bienvenido">¡Bienvenido!</string>
+    <string name="disfrazImg">Disfraz vampiro</string>
+    <string name="among">Disfraz de Among Us Amarillo Espacial para adulto para carnaval y fiestas temáticas</string>
+
+</resources>

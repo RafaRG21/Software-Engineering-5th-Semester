@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvwTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/architects_daughter"
+        android:text="@string/titulo"
+        android:textColor="#3F51B5"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtNCodigo"
+        android:layout_width="209dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/codigo"
+        android:inputType="number"
+        android:textColorHint="#757575"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvwTitulo"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/txtMarca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/marca"
+        android:inputType="textPersonName"
+        android:textColorHint="#757575"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNCodigo"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/tvwTituloTalla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/tallaTitulo"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCosto" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="95dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="@+id/tvwTituloTalla"
+        app:layout_constraintTop_toBottomOf="@+id/tvwTituloTalla">
+
+        <RadioButton
+            android:id="@+id/rdbTallaChica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tallaChica" />
+
+        <RadioButton
+            android:id="@+id/rdbTallaMediana"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tallaMediana" />
+
+        <RadioButton
+            android:id="@+id/rdbTallaGrande"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tallaGrande" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/txtModelo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/modelo"
+        android:inputType="textPersonName"
+        android:textColorHint="#757575"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtMarca"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/chkColorNegro"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/colorNegro"
+        app:layout_constraintStart_toStartOf="@+id/chkColorBlanco"
+        app:layout_constraintTop_toBottomOf="@+id/tvwTituloColores"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/chkColorRojo"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="81dp"
+        android:text="@string/colorRojo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/chkColorBlanco"
+        app:layout_constraintTop_toBottomOf="@+id/tvwTituloColores"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/chkColorNaranja"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/colorNaranja"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chkColorRojo"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/chkColorBlanco"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="@string/colorBlanco"
+        app:layout_constraintEnd_toStartOf="@+id/chkColorNaranja"
+        app:layout_constraintTop_toBottomOf="@+id/chkColorNegro"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/chkColorAzul"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="@string/colorAzul"
+        app:layout_constraintStart_toStartOf="@+id/chkColorBlanco"
+        app:layout_constraintTop_toBottomOf="@+id/chkColorBlanco"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/tvwTituloColores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="99dp"
+        android:text="@string/coloresTitulo"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvwTituloTalla"
+        app:layout_constraintTop_toBottomOf="@+id/txtCosto" />
+
+    <EditText
+        android:id="@+id/txtCosto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/costo"
+        android:inputType="textPersonName"
+        android:textColorHint="#757575"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtModelo"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="registrarDatos"
+        android:text="@string/registrar"
+        app:layout_constraintStart_toStartOf="@+id/btnEliminar"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <Button
+        android:id="@+id/btnBuscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="32dp"
+        android:onClick="buscarObjeto"
+        android:text="@string/buscar"
+        app:layout_constraintStart_toEndOf="@+id/btnRegistrar"
+        app:layout_constraintTop_toBottomOf="@+id/chkColorAzul" />
+
+    <Button
+        android:id="@+id/btnEliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="5dp"
+        android:onClick="eliminarDatos"
+        android:text="@string/eliminar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRegistrar" />
+
+    <Button
+        android:id="@+id/btnLimpiar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="4dp"
+        android:onClick="limpiarDatos"
+        android:text="@string/limpiar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/btnBuscar"
+        app:layout_constraintTop_toBottomOf="@+id/btnBuscar"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

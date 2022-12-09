@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Dpdm1_Clase01</string>
+    <string name="btnCaptura">Capturar</string>
+    <string name="btnMostrar">Mostrar</string>
+    <string name="txtNombre">Escribe tu nombre</string>
+    <string name="txtEdad">Capturar edad</string>
+    <string name="tvwResultados">Registros Capturados</string>
+    <string name="tvwTitulo">Aplicacion 2.0</string>
+
+</resources>

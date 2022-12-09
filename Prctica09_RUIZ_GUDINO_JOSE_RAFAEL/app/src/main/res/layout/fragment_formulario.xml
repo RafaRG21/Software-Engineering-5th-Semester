@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A6F2FB"
+    tools:context=".FormularioFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvwFormularioContactanos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#CBFA96"
+            android:fontFamily="@font/alata"
+            android:text="@string/formulario"
+            android:textAlignment="center"
+            android:textSize="34sp" />
+
+        <EditText
+            android:id="@+id/txtFormCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:background="#FFFFFF"
+            android:backgroundTint="#51C7FA"
+            android:ems="10"
+            android:hint="@string/correo"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:textColor="#000000"
+            android:textColorHint="#000000" />
+
+        <EditText
+            android:id="@+id/txtFormComentario"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="#5E00FF"
+            android:backgroundTint="#C5CEFF"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="@string/comentario"
+            android:inputType="textMultiLine"
+            android:textColorHint="#000000"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/txtFormTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:background="#2196F3"
+            android:backgroundTint="#EDD0D0"
+            android:ems="10"
+            android:hint="@string/telefono"
+            android:inputType="phone"
+            android:minHeight="48dp"
+            android:textColorHint="#000000" />
+
+        <Button
+            android:id="@+id/btnFrmEnviar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enviar" />
+    </LinearLayout>
+</FrameLayout>

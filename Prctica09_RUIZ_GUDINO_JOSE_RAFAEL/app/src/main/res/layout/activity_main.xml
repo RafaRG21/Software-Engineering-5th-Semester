@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabMenu"
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            app:tabIndicatorColor="#76c893">
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/itemPrincipal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:icon="@drawable/ic_principal"
+                android:text="@string/principal" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/itemGaleria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:icon="@drawable/ic_gallery"
+                android:text="@string/galeria" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/itemFormulario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:icon="@drawable/ic_contactanos"
+                android:text="@string/formulario" />
+        </com.google.android.material.tabs.TabLayout>
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/vwpVisor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#90EFB2"
+            tools:ignore="SpeakableTextPresentCheck"></androidx.viewpager.widget.ViewPager>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

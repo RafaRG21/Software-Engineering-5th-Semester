@@ -1,0 +1,14 @@
+<resources>
+        <string name="app_name">AppClase08</string>
+        <string name="principal">Principal</string>
+        <string name="galeria">Galeria</string>
+        <string name="formulario">Contáctanos</string>
+        <string name="correo">Correo electrónico</string>
+        <string name="comentario">Comentarios</string>
+        <string name="telefono">Número telefónico</string>
+        <string name="enviar">Enviar</string>
+        <string name="efecto">Reproducir efecto</string>
+        <string name="audio">Reproducir música</string>
+        <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

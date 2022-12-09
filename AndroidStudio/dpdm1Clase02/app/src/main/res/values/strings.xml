@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">dpdm1Clase02</string>
+    <string name="titulo">Cotizador de casas</string>
+    <string name="folio">Ingresa número de Folio</string>
+    <string name="nombre">Ingresa nombre de cliente</string>
+    <string name="tipo">Tipo de vivienda</string>
+    <string name="tipo1">Dos recamaras</string>
+    <string name="tipo2">Tres recamaras</string>
+    <string name="tipo3">Cuatro recamaras</string>
+    <string name="adicional">Detalle de interior</string>
+    <string name="cocina">Cocina Integral</string>
+    <string name="acabados">Acabados de mármol</string>
+    <string name="aire">Aire acondicionado</string>
+    <string name="teléfono">Ingresa teléfono</string>
+    <string name="registrar">Registrar</string>
+    <string name="cotizar">Cotizar</string>
+    <string name="limpiar">Limpiar</string>
+
+    <string name="titulo2">Cotización de la vivienda</string>
+    <string name="cotizacion">Datos de la cotización:</string>
+    <string name="detalles">Detalles:</string>
+    <string name="regresar">Regresar</string>
+</resources>

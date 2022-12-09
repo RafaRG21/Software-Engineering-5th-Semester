@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">dpdm1clase03</string>
+    <string name="titulo">Registro de productos</string>
+    <string name="codigo">Ingresa código</string>
+    <string name="descripcion">Escribe descripción</string>
+    <string name="marca">Seleccionar marca</string>
+    <string name="modelo">Seleccionar modelo</string>
+    <string name="cantidad">Ingresa cantidad</string>
+    <string name="costo">Ingresa costo unitario</string>
+    <string name="registrar">Registrar</string>
+    <string name="buscar">Buscar</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="datos">Datos del producto:</string>
+
+
+</resources>

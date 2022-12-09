@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Beca Transporte</string>
+    <string name="titulo">Control de apoyo a estudiantes (Beca de Tranasporte)</string>
+    <string name="correo">Escribe correo electrónico</string>
+    <string name="contrasena">Escribe contraseña</string>
+    <string name="guardar">Guardar datos</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="salir">Salir</string>
+    <string name="folio">Ingresar folio</string>
+    <string name="nombre">Escribe nombre(s)</string>
+    <string name="apellido">Escribe apellidos</string>
+    <string name="institucion">Nombre de institución</string>
+    <string name="monto">Monto a solicitar</string>
+    <string name="registrar">Registrar</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="consultar">Consultar</string>
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DCEFC6"
+    tools:context=".PrincipalFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvwPrincipal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFDB70"
+            android:fontFamily="@font/alata"
+            android:text="@string/principal"
+            android:textAlignment="center"
+            android:textSize="34sp" />
+
+        <ImageView
+            android:id="@+id/imgFoto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:srcCompat="@drawable/avatar" />
+    </LinearLayout>
+</FrameLayout>

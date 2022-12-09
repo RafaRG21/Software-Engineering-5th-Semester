@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A4AEE3"
+    tools:context=".GaleriaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#DA8989"
+            android:backgroundTint="#BC7B7B"
+            android:fontFamily="@font/alata"
+            android:text="@string/galeria"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="34sp" />
+
+        <Button
+            android:id="@+id/btnGalleryEfecto"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/efecto"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnGalleryAudio"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/audio" />
+    </LinearLayout>
+
+</FrameLayout>

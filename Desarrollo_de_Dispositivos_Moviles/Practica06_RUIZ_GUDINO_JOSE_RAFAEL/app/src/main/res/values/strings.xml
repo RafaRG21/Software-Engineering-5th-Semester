@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Practica6Ruiz_Gudino_Jose_Rafael</string>
+    <string name="titulo">Viajes</string>
+    <string name="codigo">Ingresar código</string>
+    <string name="asiento">Ingresar número de asientos</string>
+    <string name="costo">Ingresar costo</string>
+    <string name="destino">Destino</string>
+    <string name="tipo">Tipo de vuelo</string>
+    <string name="vueloEconomy">Economy Class</string>
+    <string name="vueloBusiness">Business Class</string>
+    <string name="vueloFirst">First Class</string>
+    <string name="Registrar">Registrar</string>
+    <string name="Buscar">Buscar</string>
+    <string name="Limpiar">Limpiar</string>
+    <string name="Eliminar">Eliminar</string>
+    <string name="resultados">Resultados:</string>
+
+</resources>

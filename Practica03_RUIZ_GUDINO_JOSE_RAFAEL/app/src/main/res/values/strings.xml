@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Practica03_RUIZ_GUDINO_JOSE_RAFAEL</string>
+    <string name="tvwTitulo">Motorcycle App</string>
+    <string name="txtMarca">Marca</string>
+    <string name="txtModelo">Modelo</string>
+    <string name="txtNumSerie">Número de Serie</string>
+    <string name="txtVelocidadMax">Velocidad (km/h)</string>
+    <string name="txtCapacidadTanque">Capacidad del tanque (Lts)</string>
+    <string name="btnAgregar">Agregar</string>
+    <string name="btnBuscar">Buscar</string>
+    <string name="btnLimpiar">Limpiar</string>
+</resources>

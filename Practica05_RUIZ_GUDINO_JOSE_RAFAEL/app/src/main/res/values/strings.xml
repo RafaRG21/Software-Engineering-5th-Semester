@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Practica05_RUIZ_GUDINO_JOSE_RAFAEL</string>
+    <string name="titulo">Ropa Deportiva</string>
+    <string name="codigo">Ingresar código</string>
+    <string name="modelo">Ingresar modelo</string>
+    <string name="marca">Ingresar marca</string>
+    <string name="costo">Ingresar costo</string>
+    <string name="tallaTitulo">Seleccionar talla</string>
+    <string name="coloresTitulo">Seleccionar colores</string>
+    <string name="colorNegro">Negro</string>
+    <string name="colorBlanco">Blanco</string>
+    <string name="colorAzul">Azul</string>
+    <string name="colorRojo">Rojo</string>
+    <string name="colorNaranja">Naranja</string>
+    <string name="tallaChica">Chica</string>
+    <string name="tallaMediana">Mediana</string>
+    <string name="tallaGrande">Grande</string>
+    <string name="registrar">Registrar</string>
+    <string name="buscar">Buscar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="limpiar">Limpiar</string>
+</resources>

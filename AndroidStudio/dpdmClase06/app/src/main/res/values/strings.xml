@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Archivos</string>
+    <string name="titulo">Editor de archivos</string>
+    <string name="guardar">Guardar</string>
+    <string name="abrir">Abrir</string>
+    <string name="guardarSD">Guardar en SD</string>
+    <string name="abrirSD">Abrir desde SD</string>
+    <string name="editor">Escribe aquí</string>
+    <string name="nombre">Escribe nombre de archivo</string>
+
+
+</resources>

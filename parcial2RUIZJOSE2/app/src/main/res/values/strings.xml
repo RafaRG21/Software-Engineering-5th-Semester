@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">parcial2RUIZJOSE</string>
+    <string name="Ingreso">Ingreso</string>
+    <string name="Usuarios">Usuarios</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="Ingresar">Ingresar</string>
+    <string name="Salir">Salir</string>
+    <string name="mueble">Muebles</string>
+    <string name="codigo">Ingresar código</string>
+    <string name="modelo">Ingresar modelo</string>
+    <string name="marca">Ingresar marca</string>
+    <string name="tamanoTitulo">Seleccionar tamaño</string>
+    <string name="coloresTitulo">Seleccionar colores</string>
+    <string name="colorNegro">Negro</string>
+    <string name="colorBlanco">Blanco</string>
+    <string name="colorAzul">Azul</string>
+    <string name="tallaChica">Chica</string>
+    <string name="tallaMediana">Mediana</string>
+    <string name="tallaGrande">Grande</string>
+    <string name="registrar">Registrar</string>
+    <string name="buscar">Buscar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="actualizar">Actualizar</string>
+</resources>

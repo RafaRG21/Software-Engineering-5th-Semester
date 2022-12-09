@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">parcial1RuizJose</string>
+    <string name="txtMarca">Marca</string>
+    <string name="txtModelo">Modelo</string>
+    <string name="txtCostoBase">Costo Base</string>
+    <string name="txtPlazo">Plazo</string>
+    <string name="btnRegistrar">Registrar</string>
+    <string name="btnCotizar">Cotizar</string>
+    <string name="btnLimpiar">Limpiar</string>
+
+</resources>
